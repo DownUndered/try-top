@@ -1,55 +1,56 @@
 html {
-    -ms-overflow-style: none;
-    /* IE 10+ */
-    /* overflow: -moz-scrollbars-none; Disabled as firefox disabling scroll ATM */
-    /* Firefox */
-  }
-  
-  html::-webkit-scrollbar {
-    display: none;
-    /* Safari and Chrome */
-  }
-  
-  
-  #landing {
-    height: 100vh;
-      }
-  
-  
-  
-  #landing {
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-color: lightgray;
-  
-  } 
-  
-  
-  .margin-x-auto {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  
-  .margin-y-auto {
-    margin-top: auto !important;
-    margin-bottom: auto !important;
-  }
+  -ms-overflow-style: none;
+  /* IE 10+ */
+  /* overflow: -moz-scrollbars-none; Disabled as firefox disabling scroll ATM */
+  /* Firefox */
+}
 
-  .transparent-background {
-    background-color: rgba(0, 0, 0, 0) !important;
-  }
-    
-  .almost-white {
-    color: #FAFAFA !important;
-  }
-  
-  .almost-black {
-    color: #313133 !important;
-  }
+html::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
 
-  #desktopMenuLogo {
-    width: 10rem;
-  }
-  
+
+
+.margin-x-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.margin-y-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.transparent-background {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.almost-white {
+  color: #FAFAFA !important;
+}
+
+.almost-black {
+  color: #313133 !important;
+}
+
+#desktopMenuLogo {
+  width: 10rem;
+}
+
+#landing {
+  height: 100vh;
+}
+
+#landing {
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-color: lightgray;
+
+}
+
+#landingText {
+  margin-top: auto;
+}
