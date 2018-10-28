@@ -51,6 +51,19 @@ html::-webkit-scrollbar {
 
 }
 
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #landingText {
-  margin-top: auto;
+  margin-top: auto;  
+
+}
+
+#landingText, #shop, #landing button {
+  position: relative;
 }
