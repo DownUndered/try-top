@@ -40,13 +40,7 @@ html {
   .transparent-background {
     background-color: rgba(0, 0, 0, 0) !important;
   }
-  
-  .shadow {
-    -webkit-box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
-    -moz-box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
-    box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
-  }
-  
+    
   .almost-white {
     color: #FAFAFA !important;
   }
