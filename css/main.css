@@ -1,0 +1,53 @@
+html {
+    -ms-overflow-style: none;
+    /* IE 10+ */
+    /* overflow: -moz-scrollbars-none; Disabled as firefox disabling scroll ATM */
+    /* Firefox */
+  }
+  
+  html::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+  }
+  
+  
+  #landing {
+    height: 100vh;
+    
+  }
+  
+  
+  
+  #landing.background-desktop {
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+  
+  } 
+  
+  
+  .margin-x-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .margin-y-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  
+  .shadow {
+    -webkit-box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
+    box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
+  }
+  
+  .almost-white {
+    color: #FAFAFA !important;
+  }
+  
+  .almost-black {
+    color: #313133 !important;
+  }
+  
