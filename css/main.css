@@ -36,6 +36,10 @@ html {
     margin-top: auto !important;
     margin-bottom: auto !important;
   }
+
+  .transparent-background {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
   
   .shadow {
     -webkit-box-shadow: 5px 5px 30px 5px rgba(0,0,0,.5);
