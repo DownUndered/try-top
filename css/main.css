@@ -13,16 +13,16 @@ html {
   
   #landing {
     height: 100vh;
-    
-  }
+      }
   
   
   
-  #landing.background-desktop {
+  #landing {
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    background-color: lightgray;
   
   } 
   
@@ -49,5 +49,9 @@ html {
   
   .almost-black {
     color: #313133 !important;
+  }
+
+  #desktopMenuLogo {
+    width: 10rem;
   }
   
