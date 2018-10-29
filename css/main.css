@@ -80,12 +80,13 @@ html::-webkit-scrollbar {
   position: relative!important;
   overflow: initial!important;
   height: 100%;
+  border: none;
 }
 
 
 .fa-stack {
   border-radius: 50%;
   position: absolute!important;
-  bottom: 6rem!important;
+  bottom: 5rem!important;
   right: -.5rem!important;
 }
