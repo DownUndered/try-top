@@ -86,7 +86,6 @@ body {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
   position: relative !important;
   overflow: initial !important;
-  height: 100%;
   border: none;
 }
 
@@ -94,15 +93,15 @@ body {
 .fa-stack {
   border-radius: 50%;
   position: absolute !important;
-  bottom: 8rem !important;
-  right: -.5rem !important;
+  bottom: 6.5rem !important;
+  right: -.8rem !important;
   border: .5px solid #FAFAFA;
   background-image: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
 }
 
 .item-price {
   position: absolute !important;
-  bottom: 8.5rem !important;
+  bottom: 7.5rem !important;
   left: .5rem !important;
 }
 
