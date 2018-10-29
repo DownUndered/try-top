@@ -26,6 +26,10 @@ html::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.light-background {
+  background-color: #FAFAFA;
+}
+
 .almost-white {
   color: #FAFAFA !important;
 }
@@ -47,7 +51,7 @@ html::-webkit-scrollbar {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-color: lightgray;
+  background-color: black;
 
 }
 
@@ -57,6 +61,7 @@ html::-webkit-scrollbar {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  opacity: 0.8;
 }
 
 #landingText {
