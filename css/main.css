@@ -38,10 +38,6 @@ html::-webkit-scrollbar {
   color: #313133 !important;
 }
 
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)!important;
-}
-
 #desktopMenuLogo {
   width: 10rem;
 }
@@ -69,10 +65,27 @@ html::-webkit-scrollbar {
 }
 
 #landingText {
-  margin-top: auto;  
+  margin-top: auto;
 
 }
 
-#landingText, #shop, #landing button {
+#landingText,
+#shop,
+#landing button {
   position: relative;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+  position: relative!important;
+  overflow: initial!important;
+  height: 100%;
+}
+
+
+.fa-stack {
+  border-radius: 50%;
+  position: absolute!important;
+  bottom: 6rem!important;
+  right: -.5rem!important;
 }
