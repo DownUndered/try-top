@@ -10,6 +10,9 @@ html::-webkit-scrollbar {
   /* Safari and Chrome */
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 .margin-x-auto {
@@ -36,6 +39,10 @@ html::-webkit-scrollbar {
 
 .almost-black {
   color: #313133 !important;
+}
+
+.header-font {
+  font-weight: 500;
 }
 
 #desktopMenuLogo {
@@ -77,8 +84,8 @@ html::-webkit-scrollbar {
 
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
-  position: relative!important;
-  overflow: initial!important;
+  position: relative !important;
+  overflow: initial !important;
   height: 100%;
   border: none;
 }
@@ -86,10 +93,9 @@ html::-webkit-scrollbar {
 
 .fa-stack {
   border-radius: 50%;
-  position: absolute!important;
-  bottom: 5rem!important;
-  right: -.5rem!important;
+  position: absolute !important;
+  bottom: 5rem !important;
+  right: -.5rem !important;
   border: .5px solid #FAFAFA;
   background-image: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
 }
-
