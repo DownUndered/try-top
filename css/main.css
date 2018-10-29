@@ -89,4 +89,7 @@ html::-webkit-scrollbar {
   position: absolute!important;
   bottom: 5rem!important;
   right: -.5rem!important;
+  border: .5px solid #FAFAFA;
+  background-image: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
 }
+
