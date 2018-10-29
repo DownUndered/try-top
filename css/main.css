@@ -89,6 +89,13 @@ body {
   border: none;
 }
 
+.image-wrapper {
+  background-attachment: black;
+}
+
+.image-wrapper > img {
+  opacity: .9;
+}
 
 .fa-stack {
   border-radius: 50%;
@@ -111,8 +118,14 @@ body {
 
 .item-width::before {
   content: 'Width:\00a0';
+  font-size: smaller;
 }
 
 .item-width::after {
   content: '\00a0mm';
+  font-size: smaller;
+}
+
+.old-price {
+  text-decoration: line-through red;
 }
