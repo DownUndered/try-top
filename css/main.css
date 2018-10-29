@@ -42,6 +42,7 @@ body {
 }
 
 .header-font {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -90,14 +91,14 @@ body {
 }
 
 .image-wrapper {
-  background-attachment: black;
+  background: black;
 }
 
-.image-wrapper > img {
+.image-wrapper img {
   opacity: .9;
 }
 
-.fa-stack {
+.shop-button {
   border-radius: 50%;
   position: absolute !important;
   bottom: 6.5rem !important;
@@ -112,7 +113,7 @@ body {
   left: .5rem !important;
 }
 
-.item-price::before {
+.item-price::before, .new-price::before {
   content: "$";
 }
 
@@ -128,4 +129,26 @@ body {
 
 .old-price {
   text-decoration: line-through red;
+  font-size: larger;
+}
+
+.new-price {
+  position: absolute;
+  bottom: 9rem !important;
+  left: .5rem !important;
+  font-size: xx-large;
+}
+
+.sale-banner {
+  position: absolute!important;
+  right: 0;
+  top: -.3rem;
+}
+
+.sale-banner > .fa-bookmark {
+  color: red;
+}
+
+.sale-banner .fa-percent {
+  font-size: large;
 }
