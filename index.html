@@ -62,8 +62,8 @@
     </section>
 
     <section id="shop" class="grid-x grid-margin-x light-background">
-        <div class="cell small-11 medium-10 large-10 medium-offset-1 large-offset-1">
-            <div class="cell small-11 medium-4 large-4 medium-offset-1 large-offset-1">
+        <div class="cell small-11 medium-8 large-8 medium-offset-2 large-offset-2">
+            <div class="cell small-11 medium-4 large-4">
                 <h2 class="h3 text-uppercase margin-top-2 almost-black header-font font-wide">online shop</h2>
             </div>
             <div class="grid-container margin-top-2">
@@ -148,9 +148,39 @@
             <div class="cell small-11 medium-4 large-4">
                 <h2 class="h3 text-uppercase margin-top-2 almost-black header-font font-wide">shipping</h2>
             </div>
-            <div class="shipping-tab-wrapper shadow">
-                <ul class="tabs margin-top-2" data-tabs id="shipping-tabs">
-                    <li class="tabs-title is-active"><a class="header-font text-capitalize" href="#metro" aria-selected="true">perth metro</a></li>
+            <div class="shipping-tab-wrapper shadow  margin-vertical-2">
+                <ul class="tabs" data-tabs id="shipping-tabs">
+                    <li class="tabs-title is-active"><a class="header-font text-capitalize" href="#metro" aria-selected="true">perth
+                            metro</a></li>
+                    <li class="tabs-title"><a class="header-font text-capitalize" data-tabs-target="interstate" href="#interstate">interstate</a></li>
+                    <li class="tabs-title"><a class="header-font text-capitalize" data-tabs-target="pickup" href="#pickup">pickup</a></li>
+                </ul>
+                <div class="tabs-content" data-tabs-content="shipping-tabs">
+                    <div class="tabs-panel is-active" id="metro">
+                        <p class="lead">Delivery across Perth Metro area (1-3 days)</p>
+                        <p>$20</p>
+                    </div>
+                    <div class="tabs-panel" id="interstate">
+                        <p class="lead">Shipping across Australia</p>
+                        <p>$35</p>
+                    </div>
+                    <div class="tabs-panel" id="pickup">
+                        <p class="lead">Pickup in store. Pickup only by an appointment from</p>
+                        <p>6 Bailing street, Cockburn Central, WA, 6164</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="safety" class="grid-x grid-margin-x light-background">
+        <div class="cell small-11 medium-8 large-8 medium-offset-2 large-offset-2">
+            <div class="cell small-11 medium-4 large-4">
+                <h2 class="h3 text-uppercase margin-top-2 almost-black header-font font-wide">safety</h2>
+            </div>
+            <div class="shipping-tab-wrapper shadow margin-vertical-2">
+                <ul class="tabs" data-tabs id="shipping-tabs">
+                    <li class="tabs-title is-active"><a class="header-font text-capitalize" href="#metro" aria-selected="true">perth
+                            metro</a></li>
                     <li class="tabs-title"><a class="header-font text-capitalize" data-tabs-target="interstate" href="#interstate">interstate</a></li>
                     <li class="tabs-title"><a class="header-font text-capitalize" data-tabs-target="pickup" href="#pickup">pickup</a></li>
                 </ul>
