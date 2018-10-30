@@ -78,7 +78,7 @@ body {
 }
 
 #landingText,
-#shop,
+#shop, #shipping,
 #landing button {
   position: relative;
 }
@@ -151,4 +151,9 @@ body {
 
 .sale-banner .fa-percent {
   font-size: large;
+}
+
+.tabs-title>a:focus, .tabs-title>a[aria-selected=true] {
+  background-color: #2ba6cb!important;
+  color: #FAFAFA!important;
 }
