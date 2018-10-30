@@ -78,7 +78,8 @@ body {
 }
 
 #landingText,
-body section:not(:first-child), 
+body section:not(:first-child),
+footer,
 #landing button {
   position: relative;
 }
@@ -105,7 +106,12 @@ body section:not(:first-child),
   bottom: 7.5rem !important;
   right: -.8rem !important;
   border: .5px solid #FAFAFA;
-  background-image: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
+  background: #eb6712;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .item-price {
@@ -114,7 +120,8 @@ body section:not(:first-child),
   left: .5rem !important;
 }
 
-.item-price::before, .new-price::before {
+.item-price::before,
+.new-price::before {
   content: "$";
 }
 
@@ -141,12 +148,12 @@ body section:not(:first-child),
 }
 
 .sale-banner {
-  position: absolute!important;
+  position: absolute !important;
   right: 0;
   top: -.3rem;
 }
 
-.sale-banner > .fa-bookmark {
+.sale-banner>.fa-bookmark {
   color: red;
 }
 
@@ -154,15 +161,26 @@ body section:not(:first-child),
   font-size: large;
 }
 
-.tabs-title>a:focus, .tabs-title>a[aria-selected=true] {
-  background-color: #2ba6cb!important;
-  color: #FAFAFA!important;
+.tabs-title>a:focus,
+.tabs-title>a[aria-selected=true] {
+  background-color: #2ba6cb !important;
+  color: #FAFAFA !important;
 }
 
-ul, ol {
-  font-size: small!important;
+ul,
+ol {
+  font-size: small !important;
 }
 
 .badge.alert {
   font-size: 1rem;
+}
+
+footer {
+  background: #457fca;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #5691c8, #457fca);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #5691c8, #457fca);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
