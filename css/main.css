@@ -159,7 +159,7 @@ body section:not(:first-child),
   color: #FAFAFA!important;
 }
 
-.list-circle {
+ul, ol {
   font-size: small!important;
 }
 
