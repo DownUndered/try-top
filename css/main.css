@@ -78,7 +78,7 @@ body {
 }
 
 #landingText,
-#shop, #shipping, #safety, 
+body section:not(:first-child), 
 #landing button {
   position: relative;
 }
