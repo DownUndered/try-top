@@ -88,6 +88,7 @@ body {
   position: relative !important;
   overflow: initial !important;
   border: none;
+  height: 100%;
 }
 
 .image-wrapper {
@@ -101,7 +102,7 @@ body {
 .shop-button {
   border-radius: 50%;
   position: absolute !important;
-  bottom: 6.5rem !important;
+  bottom: 7.5rem !important;
   right: -.8rem !important;
   border: .5px solid #FAFAFA;
   background-image: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
@@ -109,7 +110,7 @@ body {
 
 .item-price {
   position: absolute !important;
-  bottom: 7.5rem !important;
+  bottom: 8.5rem !important;
   left: .5rem !important;
 }
 
@@ -134,7 +135,7 @@ body {
 
 .new-price {
   position: absolute;
-  bottom: 9rem !important;
+  bottom: 10rem !important;
   left: .5rem !important;
   font-size: xx-large;
 }
