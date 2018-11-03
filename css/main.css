@@ -185,11 +185,6 @@ footer {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#map {
-  -webkit-filter: grayscale(40%);
-  filter: grayscale(40%);
-}
-
 .attention {
   color: #c60f13;
 }
