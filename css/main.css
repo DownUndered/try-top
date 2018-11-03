@@ -196,3 +196,11 @@ footer {
 .attention {
   color: #c60f13;
 }
+
+.toggle-button {
+  vertical-align: text-top;
+}
+
+.no-display {
+  display: none;
+}
