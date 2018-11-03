@@ -112,6 +112,11 @@ footer,
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right bottom, #357be4, #aa63d1, #e745a0, #fc435f, #eb6712);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.fa-inverse:hover::before {
+  content: "\f067";  
 }
 
 .item-price {
