@@ -112,7 +112,7 @@ footer,
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  bottom: 50%;
+  bottom: 60%;
   opacity: 0;
   transition: .3s all;
   -webkit-transition: .3s all;
@@ -150,7 +150,7 @@ footer,
   
 }
 
-.fa-inverse:hover::before {
+.add-to-cart:hover::before {
   content: "\f218";  
 }
 
@@ -185,6 +185,25 @@ footer,
   bottom: 10rem !important;
   left: .5rem !important;
   font-size: xx-large;
+}
+
+.sold-out-back {
+  background: #457fca;
+  background: -webkit-linear-gradient(to left, #5691c8, #457fca);
+  background: linear-gradient(to left, #5691c8, #457fca);
+}
+
+.sold-out-text {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  bottom: 40%;
+  border: solid;
+  border-radius: 50%;
+  padding: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .sale-banner {
