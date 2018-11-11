@@ -94,6 +94,7 @@ footer,
   position: relative !important;
   overflow: initial !important;
   border: none;
+  height: 100%;
 }
 
 .image-wrapper {
