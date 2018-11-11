@@ -99,6 +99,8 @@ footer,
   overflow: initial !important;
   border: none;
   height: 100%!important;
+  transition: .3s all;
+  -webkit-transition: .3s all;
 }
 
 .card:hover {
@@ -112,8 +114,8 @@ footer,
   transform: translate(-50%, -50%);
   bottom: 50%;
   opacity: 0;
-  transition: 2ms ease-in-out;
-  -webkit-transition: 2ms ease-in-out;
+  transition: .3s all;
+  -webkit-transition: .3s all;
 }
 
 .card:hover .modal-view {
