@@ -1,0 +1,62 @@
+var products = [
+    {
+        name : "Playground Carousel Classic",
+        img : "./img/products/625185840.jpg",
+        price : 299.99,
+        sale : false,
+        new_price: "",
+        width : 490,
+        colour : ["orange", "blue"],
+        description : "Home wall attached playground set",
+        features: ["Assembled Height 2270 mm; 6 points of fixation to the wall", "Antislip + Massage steps"],
+        package : ["Gymnastic ladder and bars", "Gymnastic rings", "Rope", "Trapeze"],
+        box_size: "1.2 m x 0.6 m x 0.14 m",
+        box_weight: 22.4,
+        quantity: 5
+    },
+    {
+        name : "Playground Carousel Classic",
+        img : "./img/products/625185840.jpg",
+        price : 299.99,
+        sale : false,
+        new_price: "",
+        width : 490,
+        colour : ["orange", "blue"],
+        description : "Home wall attached playground set",
+        features: ["Assembled Height 2270 mm; 6 points of fixation to the wall", "Antislip + Massage steps"],
+        package : ["Gymnastic ladder and bars", "Gymnastic rings", "Rope", "Trapeze"],
+        box_size: "1.2 m x 0.6 m x 0.14 m",
+        box_weight: 22.4,
+        quantity: 5
+    },
+    {
+        name : "Playground Carousel Classic",
+        img : "./img/products/625185840.jpg",
+        price : 299.99,
+        sale : false,
+        new_price: "",
+        width : 490,
+        colour : ["orange", "blue"],
+        description : "Home wall attached playground set",
+        features: ["Assembled Height 2270 mm; 6 points of fixation to the wall", "Antislip + Massage steps"],
+        package : ["Gymnastic ladder and bars", "Gymnastic rings", "Rope", "Trapeze"],
+        box_size: "1.2 m x 0.6 m x 0.14 m",
+        box_weight: 22.4,
+        quantity: 5
+    },
+    {
+        name : "Playground Carousel Classic",
+        img : "./img/products/625185840.jpg",
+        price : 299.99,
+        sale : false,
+        new_price: "",
+        width : 490,
+        colour : ["orange", "blue"],
+        description : "Home wall attached playground set",
+        features: ["Assembled Height 2270 mm; 6 points of fixation to the wall", "Antislip + Massage steps"],
+        package : ["Gymnastic ladder and bars", "Gymnastic rings", "Rope", "Trapeze"],
+        box_size: "1.2 m x 0.6 m x 0.14 m",
+        box_weight: 22.4,
+        quantity: 5
+    }
+]
