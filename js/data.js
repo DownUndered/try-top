@@ -60,3 +60,11 @@ var products = [
         quantity: 5
     }
 ]
+
+
+
+for (let product of products) {
+    console.log(product.name); // Will display contents of the object inside the array
+    document.getElementById("test").innerHTML += '<li>' + product.name + '</li>';
+}
+
