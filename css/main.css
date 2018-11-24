@@ -290,3 +290,7 @@ footer {
 .modal-img .new-price {  
   bottom: 6rem!important;
 }
+
+address {
+  font-style: inherit;
+}
