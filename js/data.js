@@ -61,10 +61,26 @@ var products = [
     }
 ]
 
-
+var cardWrapper = document.getElementById('cardWrapper');
 
 for (let product of products) {
     console.log(product.name); // Will display contents of the object inside the array
-    document.getElementById("test").innerHTML += '<li>' + product.name + '</li>';
+    cardWrapper.innerHTML += 
+        '<div class="cell">' + 
+            '<div class="card" data-equalizer-watch>' +
+                '<div class="image-wrapper">' +
+                    '<img class="card-image" src="' + product.img + '" data-toggle="productView">' +
+                    '<i class="fas fa-search fa-2x almost-white modal-view" data-toggle="productView"></i>' +
+                '</div>' +
+                '<button>' +
+                    '<span class="fa-stack fa-2x shadow shop-button"><i class="fas fa-cart-plus fa-flip-horizontal add-to-cart fa-flip-horizontal almost-white fa-stack-1x fa-inverse"></i></span>' +
+                '</button>' +
+                '<p class="h4 item-price almost-white header-font">' + product.price + '</p>' +
+                '<div class="card-section almost-black" data-toggle="productView">' +
+                    '<p class="card-name">' + product.name + '</p>' +
+                    '<p class="item-width">' + product.width + '</p>' +
+                '</div>' +
+            '</div>' +
+        '</div>';
 }
 

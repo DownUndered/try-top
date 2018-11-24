@@ -68,26 +68,10 @@
                 <h2 class="h3 text-uppercase margin-top-2 almost-black header-font font-wide">online shop</h2>
             </div>
             <div class="grid-container margin-vertical-2">
-                <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-4" data-equalizer
+                <div id="cardWrapper" class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-4" data-equalizer
                     data-equalize-by-row="true">
-                    <div class="cell">
-                        <div class="card" data-equalizer-watch>
-                            <div class="image-wrapper">
-                                <img src="./img/products/625185840.jpg" data-toggle="productView">
-                                <i class="fas fa-search fa-2x almost-white modal-view" data-toggle="productView"></i>
-                            </div>
-                            <button>
-                                <span class="fa-stack fa-2x shadow shop-button">
-                                    <i class="fas fa-cart-plus fa-flip-horizontal add-to-cart fa-flip-horizontal almost-white fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </button>
-                            <p class="h4 item-price almost-white header-font">299.99</p>
-                            <div class="card-section almost-black" data-toggle="productView">
-                                <p>Playground Carousel Classic</p>
-                                <p class="item-width">490</p>
-                            </div>
-                        </div>
-                    </div>
+                  
+                    <!--
                     <div class="cell">
                         <div class="card" data-equalizer-watch>
                             <div class="image-wrapper">
@@ -152,7 +136,7 @@
                                 <p class="item-width">490</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div id="test"></div>
@@ -534,7 +518,7 @@
         </div>
     </footer>
 
-    <div class="small reveal padding-0 border-none shadow" id="productView" data-reveal data-close-on-click="true" data-animation-in="slide-in-down" data-animation-out="slide-out-down">
+    <div class="small reveal padding-0 border-none shadow" id="productView" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
         <div class="cell small-12 medium-12 large-12 padding-1 primary-background  almost-white">
             <h5 class="text-capitalize header-font font-wide margin-0">Playground NEXT Trend</h5>
             <button class="close-button almost-white" data-close aria-label="Close modal" type="button">
