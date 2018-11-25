@@ -62,16 +62,17 @@ var products = [
 ]
 
 var cardWrapper = document.getElementById('cardWrapper');
-var productModal = document.getElementById('productView');
-var productName = '';
+var imageWrapper = document.getElementsByClassName('image-wrapper');
+var soldOut = document.createTextNode('<p class="sold-out-text almost-white">sold out</p>');
 
-for (let product of products) {
+
+for (let product of products) {    
     cardWrapper.innerHTML += 
         '<div class="cell">' + 
             '<div class="card" data-equalizer-watch>' +
                 '<div class="image-wrapper">' +
                     '<img class="card-image" src="' + product.img + '">' +
-                    '<i class="fas fa-search fa-2x almost-white modal-view"></i>' +
+                    '<i class="fas fa-search fa-2x almost-white modal-view"></i>' +                
                 '</div>' +
                 '<button>' +
                     '<span class="fa-stack fa-2x shadow shop-button"><i class="fas fa-cart-plus fa-flip-horizontal add-to-cart fa-flip-horizontal almost-white fa-stack-1x fa-inverse"></i></span>' +
@@ -82,13 +83,6 @@ for (let product of products) {
                     '<p class="item-width">' + product.width + '</p>' +
                 '</div>' +
             '</div>' +
-        '</div>';         
-    
+        '</div>';  
      
-}
-
-
-
-
-
-
+};
