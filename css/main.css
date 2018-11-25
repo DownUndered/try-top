@@ -50,6 +50,23 @@ body {
   font-weight: 500;
 }
 
+#topMobileMenu {
+  background: #457fca;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(86,145,200,.7), rgba(69,127,202,.9));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(86,145,200,.7), rgba(69,127,202,.9));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#offCanvas {
+  background-color: rgba(230, 230, 230, .9)
+}
+
+ul.vertical li:not(:first-child) {
+  padding-left: .5rem;
+}
+
 #desktopMenuLogo {
   width: 10rem;
 }
