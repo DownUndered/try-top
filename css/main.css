@@ -175,51 +175,6 @@ footer,
   font-size: smaller;
 }
 
-.old-price {
-  text-decoration: line-through red;
-  font-size: larger;
-}
-
-.new-price {
-  position: absolute;
-  bottom: 10rem !important;
-  left: .5rem !important;
-  font-size: xx-large;
-}
-
-.sold-out-back {
-  background: #457fca;
-  background: -webkit-linear-gradient(to left, #5691c8, #457fca);
-  background: linear-gradient(to left, #5691c8, #457fca);
-}
-
-.sold-out-text {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  bottom: 40%;
-  border: solid;
-  border-radius: 50%;
-  padding: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.sale-banner {
-  position: absolute !important;
-  right: 0;
-  top: -.3rem;
-  font-size: 1.5rem!important;
-}
-
-.sale-banner>.fa-bookmark {
-  color: red;
-}
-
-.sale-banner .fa-percent {
-  font-size: large;
-}
 
 .tabs-title>a:focus,
 .tabs-title>a[aria-selected=true] {
@@ -267,28 +222,6 @@ footer {
 
 .weight-value::after {
   content: '\00a0kg';
-}
-
-.modal-img {
-  position: relative;
-}
-
-.modal-img .modal-img-wrapper {
-  background-color: black;
-}
-
-.modal-img img {  
-  opacity: .8;
-}
-
-.modal-img p {
-  left: auto!important;
-  right: .5rem;
-  bottom: 4.5rem!important;
-}
-
-.modal-img .new-price {  
-  bottom: 6rem!important;
 }
 
 address {
