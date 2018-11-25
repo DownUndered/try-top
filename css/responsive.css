@@ -2,7 +2,31 @@
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
+section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
+footer {
+    text-align: right;
+}
+
+#landing {
+    background-image: url("../img/background/portrait_back.jpg")
+}
+
+.card {
+    height: auto!important;
+}
+
+.shop-button {
+    bottom: 5.5rem !important;
+}
+
+.item-price {
+    bottom: 5.5rem !important;
+    font-size: 2.5rem;
+}
 
 }
 
